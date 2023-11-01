@@ -206,7 +206,7 @@
                 </ui:Target>
               </ui:Click.Target>
             </ui:Click>
-            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="334,155" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[CurrentRow(&quot;archivo&quot;).ToString + &quot;_procesado.csv&quot;]">
+            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="334,155" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[CurrentRow(&quot;archivo&quot;).ToString + &quot; - &quot; + CurrentRow(&quot;contribuyente&quot;).ToString +  &quot;.csv&quot;]">
               <ui:TypeInto.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="2f4849cc-d864-45ca-b351-dd9448a20124" InformativeScreenshot="56b5f4b5f8145f5c073cf20bfb0e7db3" Selector="&lt;wnd app='winrar.exe' cls='WinRarWindow' title='comprobantes_perio*.zip - WinRAR' /&gt;&lt;wnd cls='SysListView32' /&gt;&lt;ctrl name='comprobantes_periodo*' role='list item' /&gt;">
                   <ui:Target.TimeoutMS>
